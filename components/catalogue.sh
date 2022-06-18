@@ -23,3 +23,5 @@ mv /home/roboshop/catalogue/systemd.service /etc/systemd/system/catalogue.servic
 systemctl daemon-reload
 systemctl start catalogue
 systemctl enable catalogue
+
+systemctl restart catalogue
