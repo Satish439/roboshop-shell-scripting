@@ -1,4 +1,4 @@
-
+#!/bin/bash
 curl -sL https://rpm.nodesource.com/setup_lts.x | bash
 yum install nodejs -y
 
@@ -12,7 +12,6 @@ mv catalogue-main catalogue
 cd /home/roboshop/catalogue
 npm install
 
-```
 
 #Update SystemD file with correct IP addresses
     
