@@ -9,7 +9,9 @@ systemctl start mongod
 
 #Update Listen IP address from 127.0.0.1 to 0.0.0.0 in config file
 
-#Config file: `/etc/mongod.conf`
+sed  -i -e '/s/127.0.0.1/0.0.0.0/' /etc/mongod.conf
+
+Config file: `/etc/mongod.conf`
 
 systemctl restart mongod
 
@@ -23,3 +25,5 @@ unzip mongodb.zip
 cd mongodb-main
 mongo < catalogue.js
 mongo < users.js
+
+systemctl restart mongod
