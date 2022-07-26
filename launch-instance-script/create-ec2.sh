@@ -1,7 +1,7 @@
 !/bin/bash
 
 ##### Change these values ###
-ZONE_ID="Z080600234ZUEKDP4RGN8"
+ZONE_ID="Z05947361FM67KDSH6C1I"
 SG_NAME="allow-all-to-public"
 #############################
 
