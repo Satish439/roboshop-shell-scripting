@@ -1,1 +1,1 @@
-echo install Payment component
+Yum install python 36 gcc python
