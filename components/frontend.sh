@@ -1,7 +1,7 @@
 #!/bin/bash
 source components/common.sh
 
-
+CHECK_ROOT
 #To Install Nginx.
 
 yum install nginx -y
