@@ -1,1 +1,4 @@
-Yum install python 36 gcc python
+#!/bin/bash
+      source components/common.sh
+      COMPONENT=payment
+      PYTHON()
