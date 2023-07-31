@@ -1,4 +1,4 @@
 #!/bin/bash
-      source components/common.sh
-      COMPONENT=Catalogue
-      NODEJS
+source components/common.sh
+COMPONENT=Catalogue
+NODEJS

@@ -16,6 +16,5 @@ shipping:
 user:
 	bash components/user.sh
 rabbitmq:
-	bash components/rabbitmq.sh
-mysql:
+ mysql:
 	bash components/mysql.sh
